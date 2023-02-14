@@ -1,0 +1,201 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'lalezar';
+}
+
+body{
+    background: linear-gradient(to right,rgba(255, 166, 0, 0.658), rgba(255, 68, 0, 0.74));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: none;
+    color: unset;
+}
+#sinulog, #atihan, #dinagyang, #panagbenga, #moriones, #pahiyas, #pintados, #sirong, #masskara, #giant{
+    display: none;
+}
+
+section{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+/*.container {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}*/
+.left{
+    background-color: rgba(252, 243, 252, 0.404);
+    width: 20%;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(212, 212, 212);
+    padding-top: 50px;
+    padding-right: 12px;
+    text-align: center;
+    justify-content: center;
+    flex-basis: 20%;
+}
+h2 {
+    height: 20px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    margin-left: 12px;
+    padding-left: 5px;
+    padding-right: 18px;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+
+li {
+    height: 20px;
+    display: flex;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 12px;
+    padding-left: 15px;
+    padding-right: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.exit a{
+    text-decoration: none;
+    color: green;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.right{
+    background: url(phil.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    flex-basis: 60%;
+    position: absolute;
+    display: table;
+    right: 90px;
+    left: 350px;
+    top: 40px;
+    border-radius: 20px;
+    border-right-width: 1px;
+    border-right-style: solid; 
+    border-right-color: rgb(65, 58, 58);
+    padding-top: 15px;
+    padding-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    color: aliceblue;
+    background-color: rgba(51, 48, 51, 0.527);
+}
+.right h1{
+    font-size: 70px;
+    font-weight: lighter;
+    margin-top: -10px;
+    padding-bottom: 40px;
+}
+.content{
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+img { 
+    width: 70vh;
+    height: 50vh;
+    margin-left: 6%;
+    border-radius: 3%;
+}
+.right p{
+    margin: 5px;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: ultra;
+    margin-right: 8%;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+    justify-content: center;
+}
+
+.info{
+    font-size: 29px;
+    font-family: ultra;
+    color: rgb(243, 241, 240);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.info h3{
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.festiv_img{
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+.festiv_img img{
+    width: 350px;
+    height: 350px;
+}
+
+.intro{
+    display: table;
+    justify-content: center;
+    align-content: center;
+    padding-left: 50px;
+}
+
+h4{
+    text-align: center;
+    font-size: 70px;
+    font-weight: lighter;
+    margin-top: -5px;
+    padding-bottom: 40px;
+}
+h5{
+    font-size: 27px;
+    font-weight: lighter; 
+    padding-right: 30px;
+}
+video{
+    height: 340px; 
+    width: 350px; 
+    padding-bottom: 40px;
+}
+
